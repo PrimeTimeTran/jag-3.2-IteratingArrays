@@ -47,73 +47,17 @@ function threePointOne() {
 }
 
 threePointOne()
-function threePointOne() {
-  // 3.1
-  function printFirstName(element) {
-    console.log("printFirstName", element);
-    return element.split(" ")[0];
+
+
+function threePointTwo() {
+  function lastName(element) {
+    return element.split(" ")[1];
   }
 
   // Produces new array.
-  const newProgrammers = programmers.map(printFirstName);
+  const newProgrammers = programmers.map(lastName);
 
-  document.getElementById("3.1").innerHTML = newProgrammers.join(" ");
+  document.getElementById("3.2").innerHTML = newProgrammers.join(" ");
 }
 
-threePointOne()
-function threePointOne() {
-  // 3.1
-  function printFirstName(element) {
-    console.log("printFirstName", element);
-    return element.split(" ")[0];
-  }
-
-  // Produces new array.
-  const newProgrammers = programmers.map(printFirstName);
-
-  document.getElementById("3.1").innerHTML = newProgrammers.join(" ");
-}
-
-threePointOne()
-function threePointOne() {
-  // 3.1
-  function printFirstName(element) {
-    console.log("printFirstName", element);
-    return element.split(" ")[0];
-  }
-
-  // Produces new array.
-  const newProgrammers = programmers.map(printFirstName);
-
-  document.getElementById("3.1").innerHTML = newProgrammers.join(" ");
-}
-
-threePointOne()
-function threePointOne() {
-  // 3.1
-  function printFirstName(element) {
-    console.log("printFirstName", element);
-    return element.split(" ")[0];
-  }
-
-  // Produces new array.
-  const newProgrammers = programmers.map(printFirstName);
-
-  document.getElementById("3.1").innerHTML = newProgrammers.join(" ");
-}
-
-threePointOne()
-function threePointOne() {
-  // 3.1
-  function printFirstName(element) {
-    console.log("printFirstName", element);
-    return element.split(" ")[0];
-  }
-
-  // Produces new array.
-  const newProgrammers = programmers.map(printFirstName);
-
-  document.getElementById("3.1").innerHTML = newProgrammers.join(" ");
-}
-
-threePointOne()
+threePointTwo()
