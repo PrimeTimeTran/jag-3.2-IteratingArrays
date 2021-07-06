@@ -1,0 +1,24 @@
+.title {
+  color: blue;
+  font-size: 1.3em;
+  margin-left: 2em;
+}
+
+.question {
+  color: green;
+  margin-left: 1em;
+}
+
+.answer {
+  margin-left: 3em;
+}
+
+section {
+  padding: 5em;
+  margin: 5em;
+  
+}
+
+section:nth-of-type(odd) {
+    background-color: lightblue;
+}
